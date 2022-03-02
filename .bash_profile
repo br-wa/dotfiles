@@ -2,11 +2,15 @@ export PATH=$PATH:/home/brandon/apps/personal
 export PATH=$PATH:/home/brandon/apps/other/z
 export PATH=$PATH:/home/brandon/apps/other/goroot/bin
 export PATH=$PATH:/home/brandon/apps/other/gradle/gradle-7.3.3/bin
+export PATH=$PATH:/home/brandon/apps/other/cytoflow
 
 export GOROOT_BOOTSTRAP=/home/brandon/apps/other/go1.4
 
 . /home/brandon/apps/other/z/z.sh
 wcpdf () { pdftotext "$@" - | tr -d '.' | wc -w ; }
+mkenv () { python3 -m venv ~/venv/"$@" ; }
+srcenv () { source ~/venv/"$@"/bin/activate ; }
+jkenv () { ipython3 kernel install --user --name="$@" ; }
 
 alias zps=". zps.sh"
 alias zp=". zps.sh"

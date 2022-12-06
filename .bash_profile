@@ -19,9 +19,10 @@ srcenv () { source ~/venv/"$@"/bin/activate ; }
 jkenv () { ipython3 kernel install --user --name="$@" ; }
 cpm () { g++ -Wall -O2 $@.cpp -o $@ ; }
 
+alias ev="evince"
+complete -f -X '!*.pdf' ev
 alias t="task"
 alias x="exit"
-alias ev="evince"
 alias tm="top -o +%MEM"
 alias zps=". zps.sh"
 alias zp=". zps.sh"

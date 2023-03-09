@@ -142,3 +142,5 @@ if [ -f '/home/brandon/google-cloud-sdk/path.bash.inc' ]; then . '/home/brandon/
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/brandon/google-cloud-sdk/completion.bash.inc' ]; then . '/home/brandon/google-cloud-sdk/completion.bash.inc'; fi
 
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

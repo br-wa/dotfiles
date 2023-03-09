@@ -9,6 +9,8 @@ export PATH=$PATH:/home/brandon/apps/other/foundry/bin
 export PATH=$PATH:/home/brandon/apps/other/baysor
 export PATH=$PATH:/home/brandon/apps/other/cargo/bin
 export PATH=$PATH:/home/brandon/apps/other/circom/target/release
+export PATH=$PATH:/home/brandon/apps/other/cdhit
+export PATH=$PATH:/home/brandon/apps/other/ncbi-blast-2.13.0+/bin
 
 export GOROOT_BOOTSTRAP=/home/brandon/apps/other/go1.4
 
